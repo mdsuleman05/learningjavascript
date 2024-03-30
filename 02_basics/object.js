@@ -1,3 +1,4 @@
+/*
 const jsUser={
     name:"shamoon",
     age:18,
@@ -22,8 +23,19 @@ console.log(obj3);
 console.log(jsUser)
 console.log(Object.keys(jsUser))
 console.log(Object.values(jsUser))
-const users=[
-    {
+*/
 
-    }
-]
+//destructuring
+const course={
+    courseName:"js in hindi",
+    price:999,
+    courseInstructor:"suleman"
+}
+
+const {courseInstructor}=course;
+console.log(courseInstructor)
+//the course instructor is large so using only instructor
+
+const {courseInstructor:instructor}=course;
+console.log(instructor);
+
